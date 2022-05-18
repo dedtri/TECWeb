@@ -139,6 +139,23 @@ margin: 10px; */
     color: blue;
 }
 
+.profil {
+    max-width: 50vh;
+    max-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.profil img {
+    max-width: 20vh;
+}
+
+.profil p {
+    margin-top: 25px;
+    color: black;
+}
+
 /*laver placering for knapperne*/
 .ButtonPlaceMent{
     flex: 1;
