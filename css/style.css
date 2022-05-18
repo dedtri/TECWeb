@@ -91,6 +91,7 @@ margin: 10px; */
     flex: 1;
     display: flex;
     justify-content: center; 
+    flex-wrap: wrap;
 }
 
 .mainContent img {
@@ -107,6 +108,26 @@ margin: 10px; */
     color: white;
     border: 0px;
     border-radius: 15px;
+}
+
+.imageDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    margin: 10px;
+}
+
+.imageDescription img {
+    display: block;
+    margin: 5 auto;
+}
+
+.imageDescription p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: blue;
 }
 
 .ButtonPlaceMent{
