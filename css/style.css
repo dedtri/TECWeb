@@ -110,6 +110,34 @@ margin: 10px; */
     border-radius: 15px;
 }
 
+.textBox {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.imageDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    margin: 10px;
+}
+
+.imageDescription img {
+    display: block;
+    margin: 5 auto;
+}
+
+.imageDescription p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: blue;
+}
 
 /*laver placering for knapperne*/
 .ButtonPlaceMent{
