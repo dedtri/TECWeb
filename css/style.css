@@ -21,6 +21,7 @@
  .pageHeader {
 height: 40px;
 display: flex;
+background-color: red;
 justify-content: space-between;
 padding: 5px;
 /* background: url(../img/bg.jpg);
@@ -109,7 +110,23 @@ margin: 10px;
     border-radius: 15px;
 }
 
+.ButtonPlaceMent{
 
+    flex: 1;
+    background-color: black;
+    border: black;
+    border-width: 1px;
+
+}
+
+.ButtonIndex button{
+    background-color: #64becd;
+    border: none;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+}
 
 
 
