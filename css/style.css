@@ -49,6 +49,8 @@ border: 1px black solid;
 
 .logoName {
     font-size: 30px;
+    color: red;
+    margin: 5px;
 }
 
 .topContent {
@@ -94,6 +96,11 @@ border: 1px black solid;
     overflow: auto; 
 }
 
+.loginButton {
+    margin: 10px;
+    opacity: 1;
+    background-color: #64becd;
+}
 
 
 
