@@ -29,7 +29,7 @@ justify-content: space-between;
 padding: 5px;
 /* background: url(../img/bg.jpg);
 background-size: cover; */
-/* flex: 0.2; */
+flex: 0.05;
 }
 
 .logo {
@@ -136,7 +136,7 @@ margin: 10px; */
 .AdminBody
 {
     flex: 1;
-    border: black;
+    background-color: black;
 }
 
 
