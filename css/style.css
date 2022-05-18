@@ -78,10 +78,7 @@ margin: 10px;
 }
 
 .mainSection {
-    
-    border: rgba(0, 0, 0, 0.2);
-    border-width: 3px;
-    border-style: dashed;
+
     flex: 1;
     display: flex;
     overflow: auto; 
