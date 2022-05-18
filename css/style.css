@@ -112,7 +112,6 @@ margin: 10px; */
 .ButtonPlaceMent{
     flex: 1;
     border: black;
-    display: flex;
     justify-content: center;
     text-align: center;
 }
@@ -128,6 +127,10 @@ margin: 10px; */
 }
 
 
-
+.AdminBody
+{
+    flex: 1;
+    border: black;
+}
 
 
