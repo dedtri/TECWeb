@@ -10,8 +10,6 @@
 </head>
 
 <body>
-
-    
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
@@ -22,8 +20,22 @@
                     <button class="loginButton">Login</button>
                </a>
         </div>
-        <div class="AdminBody">
-            hej
+        <div class="AdminPage">
+            <form action="./index.html" method="get">
+
+                <p class="AdminTitle">Admin Login</p><br>
+    
+                <label id="Title" for="fullName">Brugernavn:</label><br>
+                <input id="AdminBrugernavn" type="text" name="fullName" id="fullName"><br><br>
+    
+                <label id="Title" for="email">Password:</label><br>
+                <input id="AdminPassword" type="password" name="email" id="email"><br><br>
+    
+                <label><input type="checkbox" checked="checked" name="remember"> Remember me</label><br>
+
+                <button class="SubmitButton" type="submit">Login</button>
+                <!-- <button type="submit">Send info</button> -->
+            </form>
         </div>
     </div>
 
