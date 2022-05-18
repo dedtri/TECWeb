@@ -21,7 +21,6 @@
  .pageHeader {
 height: 40px;
 display: flex;
-background-color: red;
 justify-content: space-between;
 padding: 5px;
 /* background: url(../img/bg.jpg);
