@@ -23,7 +23,6 @@ body {
 }
 
  .pageHeader {
-     background-color: blue;
 height: 40px;
 display: flex;
 justify-content: space-between;
@@ -55,7 +54,6 @@ margin: 10px; */
 }
 
 .topContent {
-    background-color: red;
     flex: 0.1;
     display: flex;
     justify-content: center;
@@ -96,11 +94,7 @@ margin: 10px; */
 }
 
 .mainContent img {
-    height: 70vh;
-}
-
-.mainContent p {
-    margin: 10px;
+    max-height: 80vh;
 }
 
 .loginButton {
