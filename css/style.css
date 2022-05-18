@@ -55,7 +55,6 @@ margin: 10px; */
 
 .topContent {
     flex: 0.1;
-    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,11 +64,8 @@ margin: 10px; */
     flex: 1;
     padding: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
-
-/* .leftContent img {
-} */
 
 .rightContent {
     flex: 1;
@@ -94,13 +90,12 @@ margin: 10px; */
 .mainContent {
     flex: 1;
     display: flex;
-    overflow: auto; 
-    background-color: red;
-    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
 }
 
 .mainContent img {
-    height: 70vh;
+    max-height: 80vh;
 }
 
 .loginButton {
