@@ -179,7 +179,6 @@ margin: 10px; */
 .AdminPage
 {
     flex: 1;
-    margin: 40px;
     background-color: gray;
     display: flex;
     justify-content: center;
@@ -203,7 +202,7 @@ margin: 10px; */
 #AdminBrugernavn
 {
     width: 300px;
-    height: 25px;
+    height: 30px;
     background-color: rgba(10, 43, 80, 0.171);
     border: none;
 }
@@ -212,7 +211,7 @@ margin: 10px; */
 #AdminPassword
 {
     width: 300px;
-    height: 25px;
+    height: 30px;
     background-color: rgba(10, 43, 80, 0.171);
     border: none;
 }
@@ -223,9 +222,8 @@ margin: 10px; */
     border: none;
     color: white;
     background-color: #64becd;
-    flex: 1;
+    margin-left: 15px;
     width: 270px;
-    margin: 10px 5px 10px 10px; 
     height: 25px;
 }
 
