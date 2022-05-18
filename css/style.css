@@ -83,8 +83,6 @@ margin: 10px;
     border: rgba(0, 0, 0, 0.2);
     border-width: 3px;
     border-style: dashed;
-    stroke-width: 10;
-    stroke-dasharray: 20%2c 19%2c 18%2c 12;
     flex: 1;
     display: flex;
     overflow: auto; 
