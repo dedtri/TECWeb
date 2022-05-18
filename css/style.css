@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .wrapper {
     /* border: 2px red solid; */
     height: 100vh;
@@ -78,10 +82,7 @@ margin: 10px; */
 }
 
 .mainSection {
-    
-    border: rgba(0, 0, 0, 0.2);
-    border-width: 3px;
-    border-style: dashed;
+
     flex: 1;
     display: flex;
     overflow: auto; 
@@ -100,6 +101,7 @@ margin: 10px; */
     width: 70px;
     height: 35px;
     margin: 10px;
+    margin-right: 20px;
     opacity: 1;
     background-color: #64becd;
     color: white;
