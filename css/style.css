@@ -110,6 +110,15 @@ margin: 10px; */
     border-radius: 15px;
 }
 
+.textBox {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
 .imageDescription {
     display: flex;
     flex-direction: column;
