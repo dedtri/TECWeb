@@ -227,5 +227,39 @@ margin: 10px; */
     height: 25px;
 }
 
+/*indstillinger for supports venstre siden*/
+.ITSupportSite
+{
+   flex: 1;
+   display: flex;  
+   margin-top: 50px;  
+}
 
+.TitleSupport
+{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
 
+/*INdstillinger for billedets side*/
+.LeftSide
+{
+    margin-left: 100px;
+}
+/*indstillinger på billedet*/
+.ImgSupport
+{
+    height: 700px;
+    width: 500px;
+
+    min-width: 1%;
+    min-height: 1%;
+    max-height: 100%;
+    max-width: 100%;
+}  
+
+.RightSide
+{
+    margin-left: 50px;
+}
