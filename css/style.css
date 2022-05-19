@@ -227,22 +227,23 @@ margin: 10px; */
     height: 25px;
 }
 
-/*indstillinger for supports venstre siden*/
-.ITSupportSite
+/*indstillinger for titlen på fagsiderne*/
+.ITFagTitle
+{
+    text-align: center;
+    font-size: 40px;
+    color: rgba(163, 13, 38, 0.76);
+}
+
+/*indstillinger for fagsidens venstre siden*/
+.ITFagSite
 {
    flex: 1;
    display: flex;  
    margin-top: 50px;  
 }
 
-.TitleSupport
-{
-    text-align: center;
-    font-size: 40px;
-    color: red;
-}
-
-/*INdstillinger for billedets side*/
+/*INdstillinger for venstreside af siden*/
 .LeftSide
 {
     margin-left: 100px;
@@ -259,6 +260,7 @@ margin: 10px; */
     max-width: 100%;
 }  
 
+/*Indstillinger af højre side*/
 .RightSide
 {
     margin-left: 50px;
