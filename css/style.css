@@ -32,23 +32,10 @@ flex: 0.05;
 background-size: cover; */
 }
 
-.logo {
-    /* height: 100%;
-    width: 70px;
-background-color: blue;
-display: flex;
-border-radius: 50% 20% 30% 10%;
-justify-content: center;
-align-items: center;
-color: #fff;
-border: 1px black solid;
-margin: 10px; */
-}
-
 .logoName {
+    color: #5a1400;
     font-weight: bold;
     font-size: 30px;
-    color: red;
     margin: 10px;
     margin-left: 30px;
 }
@@ -69,6 +56,12 @@ margin: 10px; */
 
 .rightContent {
     flex: 1;
+    padding: 30px;
+    text-align: left;
+}
+
+.profilrightContent {
+    flex: 1.2;
     padding: 30px;
     text-align: left;
 }
@@ -139,6 +132,43 @@ margin: 10px; */
     color: blue;
 }
 
+.profilmainContent {
+    justify-content: center;
+    width: auto;
+    height: auto;
+    flex: 1;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.profiln {
+    align-items: center;
+    margin: 35px;
+    display: flex;
+    max-height: 20vh;
+}
+
+.profiln img {
+    align-self: center;
+    max-width: 15vh;
+    max-height: 15vh;
+}
+
+.profiln p {
+    text-align: left;
+    margin: 16px;
+    margin-left: 40px;
+}
+
+.active {
+    display: inline;
+    font-weight: bold;
+    color: red;
+}
+
 .profil {
     max-width: 50vh;
     max-height: 20vh;
@@ -148,11 +178,11 @@ margin: 10px; */
 }
 
 .profil img {
-    max-width: 20vh;
+    max-width: 16vh;
 }
 
 .profil p {
-    margin-top: 25px;
+    margin-top: 21px;
     color: black;
 }
 
