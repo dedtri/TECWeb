@@ -130,6 +130,7 @@ background-size: cover; */
     font-weight: bold;
     margin-top: 10px;
     color: blue;
+    text-decoration: none;
 }
 
 .profilmainContent {
