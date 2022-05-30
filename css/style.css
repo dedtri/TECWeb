@@ -133,6 +133,10 @@ background-size: cover; */
     text-decoration: none;
 }
 
+.imageDescription a{
+    text-decoration: none;
+}
+
 .profilmainContent {
     justify-content: center;
     width: auto;
