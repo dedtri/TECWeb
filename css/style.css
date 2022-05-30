@@ -132,6 +132,10 @@ background-size: cover; */
     color: blue;
 }
 
+.imageDescription a{
+    text-decoration: none;
+}
+
 .profilmainContent {
     justify-content: center;
     width: auto;
