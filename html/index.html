@@ -9,6 +9,14 @@
 </head>
 
 <body>
+    <script>
+        var click = 0;
+    
+        function onClick(){
+        click += 1;
+        };
+    </script>
+
    <div class="wrapper" id="wrapper">
        <header class="pageHeader">
        <a Class="logoLink" href="./index.html"><p class="logoName">TEC</p></a>
@@ -17,19 +25,19 @@
 
        <div class="ButtonPlaceMent">
         <div class="StyleButton">
-            <a href="./ITSupport.html"><button>IT-Support</button></a>
-            <a href="./Programmering.html"><button>Programmering</button></a>
-            <a href="./Infrastruktur.html"><button>Infrastruktur</button></a>
+            <a href="./ITSupport.html"><button type="button" onClick="onClick()">IT-Support</button></a>
+            <a href="./Programmering.html"><button type="button" onClick="onClick()">Programmering</button></a>
+            <a href="./Infrastruktur.html"><button type="button" onClick="onClick()">Infrastruktur</button></a>
         </div>
         <div class="StyleButton">
-            <a href="./Drift.html"><button>Drift</button></a>
-            <a href="./labmain.html"><button>Lab</button></a>
-            <a href="./informain.html"><button>Info</button></a>
+            <a href="./Drift.html"><button type="button">Drift</button></a>
+            <a href="./labmain.html"><button type="button">Lab</button></a>
+            <a href="./informain.html"><button type="button">Info</button></a>
         </div>
         <div class="StyleButton">
-            <a href="servicesmain.html"><button>Services</button></a>
-            <a href="supportmain.html"><button>Support</button></a>
-            <a href="personalemain.html"><button>Personale</button></a>
+            <a href="servicesmain.html"><button type="button">Services</button></a>
+            <a href="supportmain.html"><button type="button">Support</button></a>
+            <a href="personalemain.html"><button type="button">Personale</button></a>
         </div>
     </div>
 </body>
