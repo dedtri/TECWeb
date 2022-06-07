@@ -1,3 +1,4 @@
+<<<<<<< HEAD:html/ITSupport.php
 <?php
 require_once('../php/db_connect.php'); // Database connection file
 require_once('../php/functions.php');  // PHP functions file
@@ -6,6 +7,9 @@ $page_id = 1;
 
 add_view($conn, $page_id);
 ?>
+=======
+
+>>>>>>> 783f63386614d71ef222cfdd20a3baf25470ebc3:html/ITSupport.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
