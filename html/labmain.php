@@ -2,7 +2,7 @@
 require_once('../php/db_connect.php'); // Database connection file
 require_once('../php/buttonCounter.php');  // PHP functions file
 
-$page_id = Get_Page_Id($conn, $page_id);
+$page_id = 5;
 
 add_view($conn, $page_id);
 ?>
