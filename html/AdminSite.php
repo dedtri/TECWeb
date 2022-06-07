@@ -1,3 +1,8 @@
+<?php
+require_once('../php/db_connect.php'); // Database connection file
+require_once('../php/loginAccount.php');  // PHP functions file
+?>
+
 <!DOCTYPE html>
 <html lang="da">
 
