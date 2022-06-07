@@ -31,9 +31,9 @@
            
             <div class="mainContent">
                 <div class="StyleButton">
-                    <a href="./Personale/reception.php"><button>Reception</button></a>
-                    <a href="./Personale/instruktoer.php"><button>Instruktør</button></a>
-                    <a href="./Personale/ledelse.php"><button>Ledelse</button></a>
+                    <a href="./reception.php"><button>Reception</button></a>
+                    <a href="./instruktoer.php"><button>Instruktør</button></a>
+                    <a href="./ledelse.php"><button>Ledelse</button></a>
                 </div>
         </div>
        

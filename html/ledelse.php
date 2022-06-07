@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -15,10 +15,10 @@
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
-            <a class="logoLink" href="../index.php"><span class="" id="logo">
+            <a class="logoLink" href="./index.php"><span class="" id="logo">
                     <p class="logoName">TEC</p>
                 </span></a>
-                <a class="loginLink" href="../AdminSite.php">
+                <a class="loginLink" href="./AdminSite.php">
                     <button class="loginButton">Login</button>
                </a>
         </div>
@@ -31,7 +31,7 @@
            
             <div class="profilmainContent">
                 <div class="profiln">
-                    <img src="/img/profilbillede.png" alt="">
+                    <img src="../img/profilbillede.png" alt="">
                     <div class="profiltekst">
                     <p>Navn: Test Person</p>
                     <p>E-mail: TP@TEC.dk</p>
@@ -39,7 +39,7 @@
                 </div>
                     </div>     
                     <div class="profiln">
-                        <img src="/img/profilbillede.png" alt="">
+                        <img src="../img/profilbillede.png" alt="">
                         <div class="profiltekst">
                         <p>Navn: Test Person</p>
                         <p>E-mail: TP@TEC.dk</p>
@@ -47,7 +47,7 @@
                     </div>
                         </div>  
                         <div class="profiln">
-                            <img src="/img/profilbillede.png" alt="">
+                            <img src="../img/profilbillede.png" alt="">
                             <div class="profiltekst">
                             <p>Navn: Test Person</p>
                             <p>E-mail: TP@TEC.dk</p>
