@@ -1,3 +1,11 @@
+<?php
+require_once('../php/db_connect.php'); // Database connection file
+require_once('../php/functions.php');  // PHP functions file
+
+$page_id = Get_Page_Id($conn, $page_id);
+
+add_view($conn, $page_id);
+?>
 <!DOCTYPE html>
 <html lang="da">
 
@@ -24,7 +32,6 @@
         </div>
 
         <div class="mainSection">
-
             <div class="topContent">
                 <h1>Lab</h1>
             </div>

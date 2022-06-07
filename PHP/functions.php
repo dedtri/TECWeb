@@ -55,12 +55,6 @@ function total_views($conn, $page_id = null)
 
 function add_view($conn, $page_id)
 {    
-<<<<<<< HEAD
-
-=======
-    if(mysqli_query($conn, $query))
-    {
->>>>>>> 783f63386614d71ef222cfdd20a3baf25470ebc3
       // At this point unique visitor record is created successfully. Now update total_views of specific page.
       $query = "UPDATE antalBesøg SET samlet_besøg = samlet_besøg + 1 WHERE id='$page_id'";
       
@@ -68,14 +62,7 @@ function add_view($conn, $page_id)
       {
         echo "Error updating record: " . mysqli_error($conn);
       }
-<<<<<<< HEAD
+}
 
-=======
-    }
-    else
-    {
-      echo "Error inserting record: " . mysqli_error($conn);
-    }
->>>>>>> 783f63386614d71ef222cfdd20a3baf25470ebc3
-  }
+
 ?>

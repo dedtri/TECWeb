@@ -1,3 +1,11 @@
+<?php
+require_once('../php/db_connect.php'); // Database connection file
+require_once('../php/functions.php');  // PHP functions file
+
+$page_id = 3;
+
+add_view($conn, $page_id);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
