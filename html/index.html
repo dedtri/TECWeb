@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <script type="text/javascript" src="../JavaScripts/Scripts.js"></script>
+    <script type="text/php" src="../PHP/db_connect.php"></script>
+    <script type="text/php" src="../PHP/functions.php"></script>
 
    <div class="wrapper" id="wrapper">
        <header class="pageHeader">
@@ -19,7 +20,7 @@
 
        <div class="ButtonPlaceMent">
         <div class="StyleButton">
-            <a href="./ITSupport.html"><button type="button" onClick="onClick()">IT-Support</button></a>
+            <a href="./ITSupport.html"><button type="button" onClick="add_view($conn, $page_id)">IT-Support</button></a>
             <a href="./Programmering.html"><button type="button" onClick="onClick()">Programmering</button></a>
             <a href="./Infrastruktur.html"><button type="button" onClick="onClick()">Infrastruktur</button></a>
         </div>
