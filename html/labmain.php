@@ -1,6 +1,6 @@
 <?php
 require_once('../php/db_connect.php'); // Database connection file
-require_once('../php/functions.php');  // PHP functions file
+require_once('../php/buttonCounter.php');  // PHP functions file
 
 $page_id = Get_Page_Id($conn, $page_id);
 
