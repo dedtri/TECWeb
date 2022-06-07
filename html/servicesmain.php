@@ -15,10 +15,10 @@
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
-            <a class="logoLink" href="./index.html"><span class="" id="logo">
+            <a class="logoLink" href="./index.php"><span class="" id="logo">
                     <p class="logoName">TEC</p>
                 </span></a>
-                <a class="loginLink" href="./AdminSite.html">
+                <a class="loginLink" href="./AdminSite.php">
                     <button class="loginButton">Login</button>
                </a>
         </div>
@@ -47,7 +47,7 @@
                     <img src="../img/vvs.jpg" alt="" />
                     <a href="https://www.tec.dk/erhvervsuddannelser/vaelg-erhvervsuddannelse/bygningsmaleruddannelsen/"><p>VVS</p></a>
                 </div>
-                <div class="imageDescription" ></a>>
+                <div class="imageDescription" ></a>
                     <img src="../img/Lastvognsmekaniker.jpg" alt="" />
                     <a href="https://www.tec.dk/erhvervsuddannelser/vaelg-erhvervsuddannelse/lastvognsmekanikeruddannelsen/"><p>Lastvognsmekaniker</p></a>
                 </div>
@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <script src="./js/script.js"></script>
+
 </body>
 
 </html>

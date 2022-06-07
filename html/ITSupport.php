@@ -1,3 +1,11 @@
+<?php
+require_once('../php/db_connect.php'); // Database connection file
+require_once('../php/functions.php');  // PHP functions file
+
+$page_id = 1;
+
+add_view($conn, $page_id);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +19,8 @@
 <body>
     <div class="wrapper" id="wrapper">
         <header class="pageHeader">
-            <a Class="logoLink" href="./index.html"><p class="logoName">TEC</p></a>
-            <a class="AdminLogin" href="./AdminSite.html"><Button class="loginButton">Login</Button></a>
+            <a Class="logoLink" href="./index.php"><p class="logoName">TEC</p></a>
+            <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton">Login</Button></a>
         </header>
         <p class="ITFagTitle">IT-Supporter</p>
         <div class="ITFagSite">
@@ -30,9 +38,7 @@
                     <p>Du er med andre ord en it-ambulance, der rykker ud og redder dagen, når der er tekniske problemer.</p>
                 </div>
             </div>
+
         </div>
-    </div>
-   <script src="./js/script.js">
-       
-   </script>
+    </div>      
 </body>

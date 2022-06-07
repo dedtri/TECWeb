@@ -15,10 +15,10 @@
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
-            <a class="logoLink" href="./index.html"><span class="" id="logo">
+            <a class="logoLink" href="./index.php"><span class="" id="logo">
                     <p class="logoName">TEC</p>
                 </span></a>
-                <a class="loginLink" href="./AdminSite.html">
+                <a class="loginLink" href="./AdminSite.php">
                     <button class="loginButton">Login</button>
                </a>
         </div>
@@ -60,8 +60,6 @@
 
         </div>
     </div>
-
-    <script src="./js/script.js"></script>
 </body>
 
 </html>

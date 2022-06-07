@@ -15,10 +15,10 @@
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
-            <a class="logoLink" href="./index.html"><span class="" id="logo">
+            <a class="logoLink" href="./index.php"><span class="" id="logo">
                     <p class="logoName">TEC</p>
                 </span></a>
-                <a class="loginLink" href="./AdminSite.html">
+                <a class="loginLink" href="./AdminSite.php">
                     <button class="loginButton">Login</button>
                </a>
         </div>
@@ -26,28 +26,18 @@
         <div class="mainSection">
 
             <div class="topContent">
-                <h1>Support</h1>
+                <h1>Drift</h1>
             </div>
            
             <div class="mainContent">
-                <div class="textBox">
-                <p>Har du problemer i forhold til hjemmesiden?</p>
-                <p>eller foreslag til forbedringer?</p>
-                    <br>
-                <p>Kom i kontakt med os:</p>
-                <br>
-                <p class="boldText">Tlf: 48287198</p> 
-                <p class="boldText">Mail: MogM@TEC.dk</p>
-                <br>
-                <img src="../img/help1.jpg" alt="">
+            <div class="leftContent">
+               <img src="../img/Drift.jpg" alt="">
+            </div>
+            <div class="rightContent">
+                <p class="infoText">Lokale D114</p> 
             </div>
         </div>
-       
-
-        </div>
     </div>
-
-    <script src="./js/script.js"></script>
 </body>
 
 </html>

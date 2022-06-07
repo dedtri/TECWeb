@@ -11,8 +11,8 @@
 <body>
     <div class="wrapper" id="wrapper">
         <header class="pageHeader">
-            <a Class="logoLink" href="./index.html"><p class="logoName">TEC</p></a>
-            <a class="AdminLogin" href="./AdminSite.html"><Button class="loginButton">Login</Button></a>
+            <a Class="logoLink" href="./index.php"><p class="logoName">TEC</p></a>
+            <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton">Login</Button></a>
         </header>
         <p class="ITFagTitle">Infrastruktur</p>
         <div class="ITFagSite">
@@ -31,5 +31,4 @@
             </div>
         </div>
     </div>
-   <script src="./js/script.js"></script>
 </body>
