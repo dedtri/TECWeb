@@ -12,7 +12,7 @@
 
    <div class="wrapper" id="wrapper">
        <header class="pageHeader">
-       <a Class="logoLink" href="./index.php"><p class="logoName">TEC</p></a>
+       <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
        <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton">Login</Button></a>
        </header>
 

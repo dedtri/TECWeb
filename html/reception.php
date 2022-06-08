@@ -19,7 +19,7 @@
                     <p class="logoName">TEC</p>
                 </span></a>
                 <a class="loginLink" href="./AdminSite.php">
-                    <button class="loginButton">Login</button>
+                    <button class="loginButton">Skoleoplæringscenter</button>
                </a>
         </div>
 

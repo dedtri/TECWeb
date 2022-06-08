@@ -24,7 +24,7 @@ add_view($conn, $page_id);
 
         <div class="pageHeader">
             <a class="logoLink" href="./index.php"><span class="" id="logo">
-                    <p class="logoName">TEC</p>
+                    <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
                 <a class="loginLink" href="./AdminSite.php">
                     <button class="loginButton">Login</button>
