@@ -17,8 +17,8 @@ require_once('../php/buttonCounter.php');  // PHP functions file
 
 <header class="pageHeader">
     <a style="text-decoration: none;"Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-    <a href="../php/logout.php"><Button class="loginButton"> Sign Out</button></a>
     <a href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
+    <a href="./LoginSite.php"><Button class="logoutButton">Test</Button></a>
 </header>
 <br>
 <p class="ITFagTitle">Du nu logget ind</p>

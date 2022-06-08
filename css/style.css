@@ -101,6 +101,17 @@ body {
     border-radius: 15px;
 } 
 
+.logoutButton {
+    width: 70px;
+    height: 35px;
+    margin: 10px; 
+    margin-right: 20px; 
+    opacity: 1;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+} 
 
 .textBox {
     margin-top: 40px;
