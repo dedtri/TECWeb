@@ -10,11 +10,7 @@ require_once('../php/loginAccount.php');  // PHP functions file
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>Login</title>
-=======
-    <title>Administration</title>
->>>>>>> ca9e4a3dd5c5d64b72d5cc57ac68c640f7c25a1d
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
