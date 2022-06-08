@@ -19,7 +19,8 @@ require_once('../php/buttonCounter.php');  // PHP functions file
     <div class="wrapper" id="wrapper">
         <header class="pageHeader">
             <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-            <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
+            <a Class="PlacementSignOut" href="../php/logout.php"><Button class="loginButton"> Sign Out</button></a>
+            <a href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
         </header>
         <br>
         <p class="ITFagTitle">Du nu logget ind</p>
@@ -56,8 +57,6 @@ require_once('../php/buttonCounter.php');  // PHP functions file
   echo "<strong>Antal besøg på Services:</strong> " . $total_page2_views;
   ?>  
 </p>
-<br>
-  <a center href="../php/logout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
 </div>
 
         <div class="pageHeader">
@@ -80,11 +79,7 @@ require_once('../php/buttonCounter.php');  // PHP functions file
                 <label id="Title" for="email">Password:</label><br>
                 <input id="AdminPassword" type="password" name="password" class="form-control<?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
                 <span class="invalid-feedback"><?php echo $password_err; ?><br><br>
-                <?php 
-        if(!empty($login_err)){
-            echo '<span style="color: red;>"<strong><div class="alert alert-danger"><strong>' . $login_err . '</div>';
-        }        
-        ?><br>
+                
 
 
                 <button class="SubmitButton" type="submit">Login</button>
