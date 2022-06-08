@@ -10,6 +10,7 @@ require_once('../php/buttonCounter.php');  // PHP functions file
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <script type="text/javascript"></script>
@@ -17,9 +18,10 @@ require_once('../php/buttonCounter.php');  // PHP functions file
 <body>
     <div class="wrapper" id="wrapper">
         <header class="pageHeader">
-            <a Class="logoLink" href="./index.php"><p class="logoName">TEC</p></a>
-            <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton">Skoleoplæringscenter</Button></a>
+            <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
+            <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton">Login</Button></a>
         </header>
+        <br>
         <p class="ITFagTitle">Du nu logget ind</p>
         <p class="ITFagTitle">
             
@@ -53,11 +55,12 @@ require_once('../php/buttonCounter.php');  // PHP functions file
   $total_page2_views = total_views($conn, 6); // Returns total views of this page
   echo "<strong>Antal besøg på Services:</strong> " . $total_page2_views;
   ?>  
-  
-
 </p>
+<br>
+  <a center href="../php/logout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
+</div>
 
 
-    </div>
+    
 
 </body>
