@@ -69,7 +69,6 @@ body {
 }
 
 .mainSection {
-
     flex: 1;
     display: flex;
     overflow: auto; 
