@@ -21,11 +21,10 @@ body {
 
 .pageHeader {
     align-items: center;
-    height: 40px;
+    height: 60px;
     display: flex;
-    justify-content: space-between;
     padding: 10px;
-    flex: 0.05;
+    justify-content: space-between;
 }
 
 .logoName {
@@ -95,6 +94,7 @@ body {
     color: white;
     border: 0px;
     border-radius: 15px;
+    justify-content: right;
 } 
 
 .textBox {
@@ -294,3 +294,5 @@ body {
 {
     margin-left: 50px;
 }
+
+
