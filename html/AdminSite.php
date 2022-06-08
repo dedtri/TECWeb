@@ -10,7 +10,6 @@ require_once('../php/buttonCounter.php');  // PHP functions file
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -18,7 +17,7 @@ require_once('../php/buttonCounter.php');  // PHP functions file
 
 <header class="pageHeader">
     <a style="text-decoration: none;"Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-    <a href="../php/logout.php"><Button class="logoutButton"> Sign Out</button></a>
+    <a href="../php/logout.php"><Button class="loginButton"> Sign Out</button></a>
     <a href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
 </header>
 <br>
