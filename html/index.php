@@ -13,7 +13,7 @@
    <div class="wrapper" id="wrapper">
        <header class="pageHeader">
        <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-       <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton">Login</Button></a>
+       <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
        </header>
 
        <div class="ButtonPlaceMent">
