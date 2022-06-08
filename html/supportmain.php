@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Support</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -16,7 +16,7 @@
 
         <div class="pageHeader">
             <a class="logoLink" href="./index.php"><span class="" id="logo">
-                    <p class="logoName">TEC</p>
+                    <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
                 <a class="loginLink" href="./AdminSite.php">
                     <button class="loginButton">Login</button>
@@ -33,7 +33,7 @@
                 <div class="textBox">
                 <p>Har du problemer i forhold til hjemmesiden?</p>
                 <p>eller foreslag til forbedringer?</p>
-                    <br>
+                <br>
                 <p>Kom i kontakt med os:</p>
                 <br>
                 <p class="boldText">Tlf: 48287198</p> 

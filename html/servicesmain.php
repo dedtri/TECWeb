@@ -13,7 +13,7 @@ add_view($conn, $page_id);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Services</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -24,7 +24,7 @@ add_view($conn, $page_id);
 
         <div class="pageHeader">
             <a class="logoLink" href="./index.php"><span class="" id="logo">
-                    <p class="logoName">TEC</p>
+                    <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
                 <a class="loginLink" href="./AdminSite.php">
                     <button class="loginButton">Login</button>
