@@ -18,8 +18,6 @@ add_view($conn, $page_id);
 </head>
 
 <body>
-
-    
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
