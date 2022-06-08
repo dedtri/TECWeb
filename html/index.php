@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
    <div class="wrapper" id="wrapper">
        <header class="pageHeader">
        <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
