@@ -19,7 +19,7 @@ require_once('../php/buttonCounter.php');  // PHP functions file
     <div class="wrapper" id="wrapper">
         <header class="pageHeader">
             <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-            <a Class="PlacementSignOut" href="../php/logout.php"><Button class="loginButton"> Sign Out</button></a>
+            <a href="../php/logout.php"><Button class="loginButton"> Sign Out</button></a>
             <a href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
         </header>
         <br>
@@ -56,38 +56,6 @@ require_once('../php/buttonCounter.php');  // PHP functions file
   $total_page2_views = total_views($conn, 6); // Returns total views of this page
   echo "<strong>Antal besøg på Services:</strong> " . $total_page2_views;
   ?>  
-</p>
-</div>
-
-        <div class="pageHeader">
-            <a class="logoLink" href="./index.php"><span class="" id="logo">
-                    <p class="logoName">Skoleoplæringscenter</p>
-                </span></a>
-                <a class="loginLink" href="./AdminSite.php">
-                    <button class="loginButton">Login</button>
-               </a>
-        </div>
-        
-        <div class="AdminPage">
-            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="Post">
-
-    
-                <label id="Title" for="fullName">Brugernavn:</label><br>
-                <input id="AdminBrugernavn" type="text" checked="checked" name="username" class="form-control<?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
-                <span class="invalid-feedback"><?php echo $username_err; ?><br><br>
-    
-                <label id="Title" for="email">Password:</label><br>
-                <input id="AdminPassword" type="password" name="password" class="form-control<?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
-                <span class="invalid-feedback"><?php echo $password_err; ?><br><br>
-                
-
-
-                <button class="SubmitButton" type="submit">Login</button>
-            </form>
-            
-        </div>
-    </div>
-
 </body>
 
 </html>
