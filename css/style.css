@@ -103,6 +103,18 @@ background-size: cover; */
     border-radius: 15px;
 } 
 
+.logoutButton {
+    width: 70px;
+    height: 35px;
+    margin: 10px; 
+    margin-right: 200px; 
+    opacity: 1;
+    background-color: #64becd;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+}
+
 .textBox {
     margin-top: 40px;
     font-size: 20px;
