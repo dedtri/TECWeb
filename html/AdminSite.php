@@ -10,7 +10,11 @@ require_once('../php/loginAccount.php');  // PHP functions file
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>Login</title>
+=======
     <title>Administration</title>
+>>>>>>> ca9e4a3dd5c5d64b72d5cc57ac68c640f7c25a1d
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -25,16 +29,23 @@ require_once('../php/loginAccount.php');  // PHP functions file
                     <button class="loginButton">Login</button>
                </a>
         </div>
+        <?php 
+        if(!empty($login_err)){
+            echo '<div class="alert alert-danger">' . $login_err . '</div>';
+        }        
+        ?>
         <div class="AdminPage">
-            <form action="./index.php" method="get">
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="Post">
 
                 <p class="AdminTitle">Admin Login</p><br>
     
                 <label id="Title" for="fullName">Brugernavn:</label><br>
-                <input id="AdminBrugernavn" type="text" checked="checked" name="fullName"><br><br>
+                <input id="AdminBrugernavn" type="text" checked="checked" name="username" class="form-control<?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
+                <span class="invalid-feedback"><?php echo $username_err; ?><br><br>
     
                 <label id="Title" for="email">Password:</label><br>
-                <input id="AdminPassword" type="password" name="email"><br><br>
+                <input id="AdminPassword" type="password" name="password" class="form-control<?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
+                <span class="invalid-feedback"><?php echo $password_err; ?><br><br>
     
                 <label><input type="checkbox" checked="checked" name="remember"> Husk mig</label><br><br>
 
