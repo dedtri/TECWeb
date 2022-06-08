@@ -25,11 +25,6 @@ require_once('../php/loginAccount.php');  // PHP functions file
                     <button class="loginButton">Login</button>
                </a>
         </div>
-        <?php 
-        if(!empty($login_err)){
-            echo '<div class="alert alert-danger">' . $login_err . '</div>';
-        }        
-        ?>
         <div class="AdminPage">
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="Post">
 
@@ -43,7 +38,11 @@ require_once('../php/loginAccount.php');  // PHP functions file
                 <input id="AdminPassword" type="password" name="password" class="form-control<?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
                 <span class="invalid-feedback"><?php echo $password_err; ?><br><br>
     
-                <label><input type="checkbox" checked="checked" name="remember"> Husk mig</label><br><br>
+                <?php 
+        if(!empty($login_err)){
+            echo '<span style="color: red;>"<strong><div class="alert alert-danger"><strong>' . $login_err . '</div>';
+        }        
+        ?><br>
 
                 <button class="SubmitButton" type="submit">Login</button>
             </form>

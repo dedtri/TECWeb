@@ -19,7 +19,8 @@ require_once('../php/buttonCounter.php');  // PHP functions file
     <div class="wrapper" id="wrapper">
         <header class="pageHeader">
             <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-            <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
+            <a href="../php/logout.php"><Button class="loginButton"> Sign Out</button></a>
+            <a href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
         </header>
         <br>
         <p class="ITFagTitle">Du nu logget ind</p>
@@ -55,12 +56,6 @@ require_once('../php/buttonCounter.php');  // PHP functions file
   $total_page2_views = total_views($conn, 6); // Returns total views of this page
   echo "<strong>Antal besøg på Services:</strong> " . $total_page2_views;
   ?>  
-</p>
-<br>
-  <a center href="../php/logout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
-</div>
-
-
-    
-
 </body>
+
+</html>

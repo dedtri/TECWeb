@@ -94,14 +94,14 @@ background-size: cover; */
 .loginButton {
     width: 70px;
     height: 35px;
-    margin: 10px;
-    margin-right: 20px;
+    margin: 10px; 
+    margin-right: 20px; 
     opacity: 1;
     background-color: #64becd;
     color: white;
     border: 0px;
     border-radius: 15px;
-}
+} 
 
 .textBox {
     margin-top: 40px;
