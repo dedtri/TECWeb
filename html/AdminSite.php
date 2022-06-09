@@ -12,20 +12,15 @@ require_once('../php/buttonCounter.php');  // PHP functions file
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-
-
 <body>
 <div class="wrapper" id="wrapper">
-  
-    <header class="pageHeader">
-    <a style="text-decoration: none;"Class="logoLink" href="../php/logout.php"><p class="logoName">Skoleoplæringscenter</p></a>
-    <div>
-    <a href="../php/logout.php"><Button class="loginButton">Logout</Button></a>
-    <a href="./LoginSite.php"><Button class="loginButton">Login</Button></a>  
-  </div>
-    </header> 
 
-  <br>
+<header class="pageHeader">
+    <a style="text-decoration: none;"Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
+    <a href="./LoginSite.php"><Button class="loginButton">Logout</Button></a>
+    <a href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
+</header>
+<br>
 <p class="ITFagTitle">Du nu logget ind</p>
 <p class="ITFagTitle">
     
