@@ -39,8 +39,8 @@
                     <p>Lokation: Lokale 239E</p>
                 </div>
                     </div>     
-                    <div class="profiln">
-                        <img src="../img/profilbillede.png" alt="">
+                        <div class="profiln">
+                            <img src="../img/profilbillede.png" alt="">
                         <div class="profiltekst">
                         <p>Navn: Test Person</p>
                         <p>E-mail: TP@TEC.dk</p>
@@ -48,8 +48,8 @@
                         <p>Lokation: Lokale 239E</p>
                     </div>
                         </div>  
-                        <div class="profiln">
-                            <img src="../img/profilbillede.png" alt="">
+                            <div class="profiln">
+                                <img src="../img/profilbillede.png" alt="">
                             <div class="profiltekst">
                             <p>Navn: Test Person</p>
                             <p>E-mail: TP@TEC.dk</p>
@@ -57,8 +57,8 @@
                             <p>Lokation: Lokale 239E</p>
                         </div>
                             </div>  
-                            <div class="profiln">
-                                <img src="../img/profilbillede.png" alt="">
+                                <div class="profiln">
+                                    <img src="../img/profilbillede.png" alt="">
                                 <div class="profiltekst">
                                 <p>Navn: Test Person</p>
                                 <p>E-mail: TP@TEC.dk</p>
@@ -66,8 +66,8 @@
                                 <p>Lokation: Lokale 239E</p>
                             </div>
                                 </div>  
-                                <div class="profiln">
-                                    <img src="../img/profilbillede.png" alt="">
+                                    <div class="profiln">
+                                        <img src="../img/profilbillede.png" alt="">
                                     <div class="profiltekst">
                                     <p>Navn: Test Person</p>
                                     <p>E-mail: TP@TEC.dk</p>
@@ -75,8 +75,8 @@
                                     <p>Lokation: Lokale 239E</p>
                                 </div>
                                     </div>  
-                                    <div class="profiln">
-                                        <img src="../img/profilbillede.png" alt="">
+                                        <div class="profiln">
+                                            <img src="../img/profilbillede.png" alt="">
                                         <div class="profiltekst">
                                         <p>Navn: Test Person</p>
                                         <p>E-mail: TP@TEC.dk</p>
@@ -84,8 +84,8 @@
                                         <p>Lokation: Lokale 239E</p>
                                     </div>
                                         </div>  
-                                        <div class="profiln">
-                                            <img src="../img/profilbillede.png" alt="">
+                                            <div class="profiln">
+                                                <img src="../img/profilbillede.png" alt="">
                                             <div class="profiltekst">
                                             <p>Navn: Test Person</p>
                                             <p>E-mail: TP@TEC.dk</p>
@@ -93,8 +93,8 @@
                                             <p>Lokation: Lokale 239E</p>
                                         </div>
                                             </div>  
-                                            <div class="profiln">
-                                                <img src="../img/profilbillede.png" alt="">
+                                                <div class="profiln">
+                                                    <img src="../img/profilbillede.png" alt="">
                                                 <div class="profiltekst">
                                                 <p>Navn: Test Person</p>
                                                 <p>E-mail: TP@TEC.dk</p>
@@ -102,8 +102,8 @@
                                                 <p>Lokation: Lokale 239E</p>
                                             </div>
                                                 </div>  
-                                                <div class="profiln">
-                                                    <img src="../img/profilbillede.png" alt="">
+                                                    <div class="profiln">
+                                                        <img src="../img/profilbillede.png" alt="">
                                                     <div class="profiltekst">
                                                     <p>Navn: Test Person</p>
                                                     <p>E-mail: TP@TEC.dk</p>
@@ -112,10 +112,7 @@
                                                 </div>
                                                     </div>  
                                                                                              
-        </div>
-        
-       
-
+            </div>
         </div>
     </div>
 </body>
