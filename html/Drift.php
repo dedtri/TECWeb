@@ -15,17 +15,7 @@ add_view($conn, $page_id);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drift</title>
     <link rel="stylesheet" href="../css/style.css">
-    <script>
-         function lokale1(){
-             document.getElementById('myImage')
-             .src="../img/ServiceDisk.jpg";
-         }
-          
-         function lokale2(){
-             document.getElementById('myImage')
-             .src="../img/LonnieVeleder.jpg";
-         }
-      </script>
+    <script src="../js/scripts.js"></script>
 </head>
 
 <body>
@@ -45,25 +35,48 @@ add_view($conn, $page_id);
             <div class="topContent">
                 <h1>Lokaler</h1>
             </div>
+
+
+
+            <div class="topContent2">
+
+            <button class="loginButton"
+                 onclick=lokale1();>
+             Service Disk
+         </button>
+
+         <button class="loginButton"
+                 onclick=lokale2();>
+             Vejleder
+         </button>
+
+         <button class="loginButton"
+                 onclick=lokale3();>
+             Lab
+         </button>
+
+         <button class="loginButton"
+                 onclick=lokale4();>
+             Chef
+         </button>
+
+         <button class="loginButton"
+                 onclick=lokale5();>
+             Personale
+         </button>
+
+            </div>  
            
             <div class="mainContent">
-            <div class="leftContent">
-               <img id="myImage" class="kort" src="../img/Drift.jpg" alt="">
-            </div>
-            <div class="rightContent">
-                <p class="infoText">
+
+               <img id="myImage" class="kort" src="../img/BilledeAfSkole.jpg" alt="">
+
+
+        </div>
                     
-                <div class="button">
-         <button class="loginButton"
-                 onclick=lokale1();>
-             Service disk
-         </button><br>
-         <button class="loginButton"
-                  onclick=lokale2();>
-             Leder
-         </button>
-                </p> 
-            </div>
+
+         
+         
         </div>
     </div>
 </body>

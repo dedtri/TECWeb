@@ -13,13 +13,12 @@ add_view($conn, $page_id);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAB</title>
+    <title>Drift</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/scripts.js"></script>
 </head>
 
 <body>
-
-    
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
@@ -32,20 +31,44 @@ add_view($conn, $page_id);
         </div>
 
         <div class="mainSection">
+
             <div class="topContent">
                 <h1>Lokaler</h1>
             </div>
+
+
+
+            <div class="topContent2">
+
+            <button class="loginButton"
+                 onclick=lokale6();>
+             Infrastruktur
+         </button>
+
+         <button class="loginButton"
+                 onclick=lokale7();>
+             Infrastruktur og IT-support
+         </button>
+
+         <button class="loginButton"
+                 onclick=lokale8();>
+             Programmering
+         </button>
+
+    
+
+            </div>  
            
             <div class="mainContent">
-            <div class="leftContent">
-               <img src="../img/kort1.PNG" alt="">
-            </div>
-            <div class="rightContent">
-                <p class="infoText">Lokale E114</p> 
-                <p class="infoText">Lokale E154</p> 
-                <p class="infoText">Lokale E214</p> 
-                <p class="infoText">Lokale E314</p> 
-            </div>
+
+               <img id="myImage" class="kort" src="../img/BilledeAfSkole.jpg" alt="">
+
+
+        </div>
+                    
+
+         
+         
         </div>
     </div>
 </body>
