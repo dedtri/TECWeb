@@ -15,6 +15,17 @@ add_view($conn, $page_id);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drift</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script>
+         function lokale1(){
+             document.getElementById('myImage')
+             .src="../img/ServiceDisk.jpg";
+         }
+          
+         function lokale2(){
+             document.getElementById('myImage')
+             .src="../img/LonnieVeleder.jpg";
+         }
+      </script>
 </head>
 
 <body>
@@ -37,10 +48,21 @@ add_view($conn, $page_id);
            
             <div class="mainContent">
             <div class="leftContent">
-               <img src="../img/Drift.jpg" alt="">
+               <img id="myImage" class="kort" src="../img/Drift.jpg" alt="">
             </div>
             <div class="rightContent">
-                <p class="infoText">Lokale D114</p> 
+                <p class="infoText">
+                    
+                <div class="button">
+         <button class="loginButton"
+                 onclick=lokale1();>
+             Service disk
+         </button><br>
+         <button class="loginButton"
+                  onclick=lokale2();>
+             Leder
+         </button>
+                </p> 
             </div>
         </div>
     </div>

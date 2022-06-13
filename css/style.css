@@ -49,10 +49,18 @@ body {
     justify-content: center; 
 }
 
+.leftContent img {
+    height: 70vh;
+}
+
 .rightContent {
     flex: 1;
     padding: 30px;
     text-align: left;
+}
+
+.rightContent button {
+    margin: 5px;
 }
 
 .profilrightContent {
