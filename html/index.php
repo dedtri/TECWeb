@@ -22,8 +22,8 @@
             <a href="./Infrastruktur.php"><button type="button">Infrastruktur</button></a>
         </div>
         <div class="StyleButton">
-            <a href="./Drift.php"><button type="button">Drift</button></a>
-            <a href="./labmain.php"><button type="button">Lab</button></a>
+            <a href="./Drift.php"><button type="button">Drift/Lab</button></a>
+            <a href="./labmain.php"><button type="button">IT-Linje lokaler</button></a>
             <a href="./informain.php"><button type="button">Info</button></a>
         </div>
         <div class="StyleButton">

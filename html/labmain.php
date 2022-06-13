@@ -33,7 +33,7 @@ add_view($conn, $page_id);
 
         <div class="mainSection">
             <div class="topContent">
-                <h1>Lab</h1>
+                <h1>Lokaler</h1>
             </div>
            
             <div class="mainContent">
