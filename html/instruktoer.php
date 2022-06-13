@@ -110,7 +110,7 @@
                                                     <p>Tel.: 8888 8888</p>
                                                     <p>Lokation: Lokale 239E</p>
                                                 </div>
-                                                    </div>  
+                                            </div>  
                                                                                              
             </div>
         </div>
