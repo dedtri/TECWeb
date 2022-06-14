@@ -16,10 +16,10 @@
 
         <div class="pageHeader">
             <a class="logoLink" href="./index.php"><span class="" id="logo">
-                    <p class="logoName">TEC</p>
+                    <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
                 <a class="loginLink" href="./LoginSite.php">
-                    <button class="loginButton">Skoleoplæringscenter</button>
+                    <button class="loginButton">Login</button>
                </a>
         </div>
 

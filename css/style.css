@@ -49,10 +49,23 @@ body {
     align-items: center;
 }
 
+.topContent3 {
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .topContent2 button {
     margin: 5px;
     height: 55px;
     width: 70px;
+}
+
+.topContent3 button {
+    margin: 5px;
+    height: 65px;
+    width: 100px;
 }
 
 .leftContent {
@@ -64,6 +77,13 @@ body {
 
 .kort {
     height: 70vh;
+}
+
+.stats
+{
+    text-align: left;
+    font-size: 25px;
+    color: rgba(212, 6, 40, 0.76);
 }
 
 .rightContent {

@@ -38,7 +38,7 @@ add_view($conn, $page_id);
 
 
 
-            <div class="topContent2">
+            <div class="topContent3">
 
             <button class="loginButton"
                  onclick=lokale6();>
