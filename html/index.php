@@ -12,7 +12,9 @@
    <div class="wrapper" id="wrapper">
        <header class="pageHeader">
        <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-       <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
+       <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton" id="btn">Login</Button></a>
+       
+       <script src="scripts.js"></script>
        </header>
 
        <div class="ButtonPlaceMent">

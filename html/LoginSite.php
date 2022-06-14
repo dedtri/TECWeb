@@ -21,9 +21,6 @@ require_once('../php/loginAccount.php');  // PHP functions file
             <a class="logoLink" href="./index.php"><span class="" id="logo">
                     <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
-                <a class="loginLink" href="./LoginSite.php">
-                    <button class="loginButton">Login</button>
-               </a>
         </div>
         <div class="AdminPage">
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="Post">
@@ -43,7 +40,7 @@ require_once('../php/loginAccount.php');  // PHP functions file
             echo '<span style="color: red;>"<strong><div class="alert alert-danger"><strong>' . $login_err . '</div>';
         }        
         ?><br>
-
+        
                 <button class="SubmitButton" type="submit">Login</button>
             </form>
         </div>
