@@ -12,7 +12,7 @@ $result = mysqli_query($conn, $query);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chart</title>
+    <title>Admin site</title>
     <link rel="stylesheet" href="../css/style.css">
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -54,7 +54,7 @@ $result = mysqli_query($conn, $query);
                     <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
                 <a class="loginLink" href="./LoginSite.php">
-                    <button class="loginButton">Login</button>
+                <a href="../php/logout.php"><Button class="loginButton">Logout</Button></a>
                </a>
         </div>
         <div class="mainSection">
