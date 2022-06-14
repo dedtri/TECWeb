@@ -37,7 +37,7 @@ session_start();
            
             <div class="mainContent">
             <div class="leftContent">
-               <img src="../img/kort1.PNG" alt="">
+               <img src="../img/BilledeafSkole.jpg" alt="">
             </div>
             <div class="profilrightContent">
                 <div class="profil">

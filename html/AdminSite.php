@@ -4,6 +4,7 @@ require_once('../php/buttonCounter.php');
 
 $query = "select * from antalBesøg";
 $result = mysqli_query($conn, $query);
+session_start();
 ?>
 
 <!DOCTYPE html>

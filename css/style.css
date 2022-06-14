@@ -75,6 +75,10 @@ body {
     justify-content: center; 
 }
 
+.leftContent img {
+    height: 65vh;
+}
+
 .kort {
     height: 70vh;
 }
