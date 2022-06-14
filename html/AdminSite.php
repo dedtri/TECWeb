@@ -52,9 +52,10 @@ $result = mysqli_query($conn, $query);
 <div class="pageHeader">
             <a class="logoLink" href="./index.php"><span class="" id="logo">
                     <p class="logoName">Skoleoplæringscenter</p>
-                </span>
-                <a href="../php/logout.php"><Button class="loginButton">Logout</Button></a>
-    </a>
+                </span></a>
+                <a class="loginLink" href="./LoginSite.php">
+                    <button class="loginButton">Login</button>
+               </a>
         </div>
         <div class="mainSection">
         <div class="topContent">
