@@ -1,8 +1,3 @@
-<?php
-require_once "../php/db_connect.php";
-
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,16 +10,10 @@ session_start();
 
 <body>
    <div class="wrapper" id="wrapper">
+    <script type="button.js"></script>
        <header class="pageHeader">
-       <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-
-       <div>
-       <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton" <?php if((isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Login</Button></a>
-       <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Admin</Button></a> 
-       <a class="AdminLogin" href="../php/logout.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Logout</Button></a> 
-    </div>
-
-       <script src="scripts.js"></script>
+        <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
+        <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
        </header>
 
        <div class="ButtonPlaceMent">

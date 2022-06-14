@@ -38,11 +38,3 @@ function lokale8(){
     .src="../img/ProgrammeringLokale.jpg";
 }
 
-function ShowHideButton() {
-    var x = document.getElementById("logOut");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
