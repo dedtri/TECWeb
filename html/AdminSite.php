@@ -54,7 +54,7 @@ $result = mysqli_query($conn, $query);
                     <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
                 <a class="loginLink" href="./LoginSite.php">
-                    <button class="loginButton">Login</button>
+                <a href="../php/logout.php"><Button class="loginButton">Logout</Button></a>
                </a>
         </div>
         <div class="mainSection">
