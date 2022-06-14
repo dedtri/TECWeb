@@ -5,6 +5,11 @@ require_once('../php/buttonCounter.php');
 $query = "select * from antalBesøg";
 $result = mysqli_query($conn, $query);
 session_start();
+
+if(!isset($_SESSION["loggedin"]) && !$_SESSION["loggedin"] === true){
+  header("location: Index.php");
+  exit;
+}
 ?>
 
 <!DOCTYPE html>
