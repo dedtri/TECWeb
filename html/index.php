@@ -12,8 +12,7 @@
    <div class="wrapper" id="wrapper">
     <script type="button.js"></script>
        <header class="pageHeader">
-       <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-       
+        <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
         <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
        </header>
 
