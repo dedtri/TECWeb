@@ -2,6 +2,8 @@
 require_once('../php/db_connect.php'); // Database connection file
 require_once('../php/buttonCounter.php');  // PHP functions file
 
+session_start();
+
 $page_id = 4;
 
 add_view($conn, $page_id);
@@ -25,9 +27,11 @@ add_view($conn, $page_id);
             <a class="logoLink" href="./index.php"><span class="" id="logo">
                     <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
-                <a class="loginLink" href="./LoginSite.php">
-                    <button class="loginButton">Login</button>
-               </a>
+                <div>
+       <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton" <?php if((isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Login</Button></a>
+       <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Admin</Button></a> 
+       <a class="AdminLogin" href="../php/logout.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Logout</Button></a> 
+    </div>
         </div>
 
         <div class="mainSection">

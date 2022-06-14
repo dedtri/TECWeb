@@ -4,6 +4,8 @@ require_once('../php/buttonCounter.php');  // PHP functions file
 
 $page_id = 1;
 
+session_start();
+
 add_view($conn, $page_id);
 ?>
 <!DOCTYPE html>
@@ -20,7 +22,11 @@ add_view($conn, $page_id);
     <div class="wrapper" id="wrapper">
         <header class="pageHeader">
             <a Class="logoLink" href="./index.php"><p class="logoName">Skoleoplæringscenter</p></a>
-            <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton">Login</Button></a>
+            <div>
+       <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton" <?php if((isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Login</Button></a>
+       <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Admin</Button></a> 
+       <a class="AdminLogin" href="../php/logout.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Logout</Button></a> 
+    </div>
         </header>
         <p class="ITFagTitle">IT-Supporter</p>
         <div class="ITFagSite">
