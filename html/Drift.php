@@ -1,13 +1,3 @@
-<?php
-require_once('../php/db_connect.php'); // Database connection file
-require_once('../php/buttonCounter.php');  // PHP functions file
-
-session_start();
-
-$page_id = 4;
-
-add_view($conn, $page_id);
-?>
 <!DOCTYPE html>
 <html lang="da">
 
@@ -83,6 +73,17 @@ add_view($conn, $page_id);
          
         </div>
     </div>
+
+    <?php
+require_once('../php/db_connect.php'); // Database connection file
+require_once('../php/buttonCounter.php');  // PHP functions file
+
+session_start();
+
+$page_id = 4;
+
+add_view($conn, $page_id);
+?>
 </body>
 
 </html>

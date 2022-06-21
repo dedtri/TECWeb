@@ -1,16 +1,3 @@
-<?php
-require_once "../php/db_connect.php";
-require_once('../php/buttonCounter.php');
-
-$query = "select * from antalBesøg";
-$result = mysqli_query($conn, $query);
-session_start();
-
-if(!isset($_SESSION["loggedin"]) && !$_SESSION["loggedin"] === true){
-  header("location: Index.php");
-  exit;
-}
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -110,5 +97,20 @@ echo "<strong>Antal besøg på Services:</strong> " . $total_page2_views;
     </div>
 
 </div>
+
+<?php
+require_once "../php/db_connect.php";
+require_once('../php/buttonCounter.php');
+
+$query = "select * from antalBesøg";
+$result = mysqli_query($conn, $query);
+session_start();
+
+if(!isset($_SESSION["loggedin"]) && !$_SESSION["loggedin"] === true){
+  header("location: Index.php");
+  exit;
+}
+?>
+
 </body>
 </html>
