@@ -115,24 +115,11 @@ overflow: hidden;
 
 }
 
-
-.serviceMain {
-    height: auto;
-    width: auto;
-    flex: 1;
-    display: flex;
-    overflow: auto; 
-    flex-direction: column;
-    margin: 20px;
-    text-align: center;
-}
-
 .mainContent {
     flex: 1;
     display: flex;
     justify-content: center; 
     flex-wrap: wrap;
-    overflow:hidden;
 }
 
 .mainContent img {
@@ -173,7 +160,7 @@ overflow: hidden;
 }
 
 .imageDescription img {
-    height: 35vh;
+    height: 30vh;
     display: block;
 }
 
@@ -198,10 +185,12 @@ overflow: hidden;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .profiln {
+    background-color: red;
     min-width: 55vh;
     max-width: 55vh;
     align-items: center;
@@ -221,36 +210,6 @@ overflow: hidden;
     margin: 16px;
     margin-left: 30px;
 }
-
-.profilmainContent2 {
-    justify-content: center;
-    width: auto;
-    height: auto;
-    flex: 1;
-    padding: 30px;
-    flex-wrap: wrap;
-    overflow: hidden;
-}
-
-.profiln2 {
-    margin: 20px;
-    min-width: 55vh;
-    max-width: 55vh;
-    display: flex;
-    max-height: 20vh;
-}
-
-.profiln2 img {
-    margin-left: 30px;
-    max-width: 15vh;
-    max-height: 15vh;
-}
-
-.profiln2 p { 
-    margin: 16px;
-    margin-left: 30px;
-}
-
 
 .active {
     display: inline;

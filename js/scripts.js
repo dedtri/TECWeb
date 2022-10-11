@@ -1,20 +1,20 @@
 function lokale1(){
-    document.getElementById('myImage')
+    document.getElementById()
     .src="../img/ServiceDisk.jpg";
 }
  
 function lokale2(){
-    document.getElementById('myImage')
-    .src="../img/LonnieVeleder.jpg";
+    document.getElementById()
+    .src="../img/LonnyVejleder.jpg";
 }
 
 function lokale3(){
-    document.getElementById('myImage')
-    .src="../img/lab.jpg";
+    document.getElementById
+    .src="../img/Lab.jpg";
 }
 
 function lokale4(){
-    document.getElementById('myImage')
+    document.getElementById
     .src="../img/ChefKontor.jpg";
 }
 
@@ -24,7 +24,7 @@ function lokale5(){
 }
 
 function lokale6(){
-    document.getElementById('myImage')
+    document.getElementById('')
     .src="../img/InfrastrukturLokale.jpg";
 }
 
@@ -35,6 +35,6 @@ function lokale7(){
 
 function lokale8(){
     document.getElementById('myImage')
-    .src="../img/ProgrammeringLokale.jpg";
+    .src="../img/ProgrameringLokale.jpg";
 }
 

@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="da">
 
@@ -14,18 +10,22 @@ session_start();
 </head>
 
 <body>
+<?php
+session_start();
+?>
 
     
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
-            <a class="logoLink" href="./index.php"><span class="" id="logo">
+            <a class="logoLink" href="../index.php"><span class="" id="logo">
                     <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
                 <div>
+                    <a><button class="backAndForward" onclick="history.back()">Back</button></a>
        <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton" <?php if((isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Login</Button></a>
        <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Admin</Button></a> 
-       <a class="AdminLogin" href="../php/logout.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Logout</Button></a> 
+       <a class="AdminLogin" href="./logout.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Logout</Button></a> 
     </div>
         </div>
 
@@ -34,6 +34,7 @@ session_start();
             <div class="topContent">
                 <h1>Reception</h1>
             </div>
+            
            
             <div class="mainContent">
             <div class="leftContent">
@@ -42,36 +43,32 @@ session_start();
             <div class="profilrightContent">
                 <div class="profil">
                 <img src="../img/profilbillede.png" alt="">
-                <p>Navn: Test Person</p>
-                <p>E-mail: TP@TEC.dk</p>
-                <p>Tel.: 8888 8888</p>
+                <p>Navn: Carin Rabell</p>
+                <p>E-mail: cra@tec.dk</p>
+		<p>Uddannelsesvejleder</p>
                 </div>
                 <br><br>
                 <div class="profil">
                     <img src="../img/profilbillede.png" alt="">
-                    <p>Navn: Test Person</p>
-                    <p>E-mail: TP@TEC.dk</p>
-                    <p>Tel.: 8888 8888</p>
+                    <p>Navn: Maja Bjarnesen</p>
+                    <p>E-mail: mb@tec.dk</p>
+		    <p>Uddanelsesvejleder</p>
                     </div>
                     <br><br>
                     <div class="profil">
                         <img src="../img/profilbillede.png" alt="">
-                        <p>Navn: Test Person</p>
-                        <p>E-mail: TP@TEC.dk</p>
-                        <p>Tel.: 8888 8888</p>
+                        <p>Navn: Lonny Grønning</p>
+                        <p>E-mail: lg@tec.dk</p>
+			<p>Praktikcenter vejleder</p>
                         </div>
                         <br><br>
-                        <div class="profil">
-                            <img src="../img/profilbillede.png" alt="">
-                            <p>Navn: Test Person</p>
-                            <p>E-mail: TP@TEC.dk</p>
-                            <p>Tel.: 8888 8888</p>
-                            </div>
+         <p style="font-weight:bold;color:red;">* IKKE ALTID TILGÆNGELIG PÅ KONTORET</p>
             </div>
         </div>
        
 
         </div>
+        
     </div>
 
 </body>

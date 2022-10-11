@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="da">
 
@@ -15,17 +11,21 @@ session_start();
 
 <body>
 
+    <?php
+session_start();
+?>
     
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
-            <a class="logoLink" href="./index.php"><span class="" id="logo">
+            <a class="logoLink" href="../index.php"><span class="" id="logo">
                     <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
                 <div>
+                    <a><button class="backAndForward" onclick="history.back()">Back</button></a>
        <a class="AdminLogin" href="./LoginSite.php"><Button class="loginButton" <?php if((isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Login</Button></a>
        <a class="AdminLogin" href="./AdminSite.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Admin</Button></a> 
-       <a class="AdminLogin" href="../php/logout.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Logout</Button></a> 
+       <a class="AdminLogin" href="./logout.php"><Button class="loginButton" <?php if((!isset($_SESSION["loggedin"]))) {?> style="display: none;" <?php } ?> id="btn">Logout</Button></a> 
     </div>
         </div>
 
@@ -45,6 +45,8 @@ session_start();
        
 
         </div>
+        
+             
     </div>
 
 </body>

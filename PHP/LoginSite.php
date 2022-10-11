@@ -1,8 +1,3 @@
-<?php
-require_once('../php/db_connect.php'); // Database connection file
-require_once('../php/loginAccount.php');  // PHP functions file
-?>
-
 <!DOCTYPE html>
 <html lang="da">
 
@@ -15,10 +10,18 @@ require_once('../php/loginAccount.php');  // PHP functions file
 </head>
 
 <body>
+         <?php 
+        require_once('./db_connect.php'); // Database connection file
+        require_once('./loginAccount.php');  // PHP functions file
+         
+        if(!empty($login_err)){
+            echo '<span style="color: red;>"<strong><div class="alert alert-danger"><strong>' . $login_err . '</div>';
+        }        
+        ?>
     <div class="wrapper" id="wrapper">
 
         <div class="pageHeader">
-            <a class="logoLink" href="./index.php"><span class="" id="logo">
+            <a class="logoLink" href="../index.php"><span class="" id="logo">
                     <p class="logoName">Skoleoplæringscenter</p>
                 </span></a>
         </div>
@@ -35,17 +38,11 @@ require_once('../php/loginAccount.php');  // PHP functions file
                 <input id="AdminPassword" type="password" name="password" class="form-control<?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
                 <span class="invalid-feedback"><?php echo $password_err; ?><br><br>
     
-                <?php 
-        if(!empty($login_err)){
-            echo '<span style="color: red;>"<strong><div class="alert alert-danger"><strong>' . $login_err . '</div>';
-        }        
-        ?><br>
         
                 <button class="SubmitButton" type="submit">Login</button>
             </form>
         </div>
     </div>
-
 </body>
 
 </html>

@@ -4,7 +4,7 @@ function total_views($conn, $page_id = null)
   if($page_id === null)
   {
     // count total website views
-    $query = "SELECT sum(samlet_besøg) as samlet_besøg FROM antalBesøg";
+    $query = "SELECT sum(samlet_besøg) as samlet_besøg FROM antalbesøg";
     $result = mysqli_query($conn, $query);
     
     if(mysqli_num_rows($result) > 0)
@@ -29,7 +29,7 @@ function total_views($conn, $page_id = null)
   else
   {
     // count specific page views
-    $query = "SELECT samlet_besøg FROM antalBesøg WHERE id='$page_id'";
+    $query = "SELECT samlet_besøg FROM antalbesøg WHERE id='$page_id'";
     $result = mysqli_query($conn, $query);
     
     if(mysqli_num_rows($result) > 0)
@@ -56,7 +56,7 @@ function total_views($conn, $page_id = null)
 function add_view($conn, $page_id)
 {    
     // At this point unique visitor record is created successfully. Now update total_views of specific page.
-    $query = "UPDATE antalBesøg SET samlet_besøg = samlet_besøg + 1 WHERE id='$page_id'";
+    $query = "UPDATE antalbesøg SET samlet_besøg = samlet_besøg + 1 WHERE id='$page_id'";
       
     if(!mysqli_query($conn, $query))
       {
